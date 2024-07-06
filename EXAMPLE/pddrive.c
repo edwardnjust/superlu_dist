@@ -128,7 +128,7 @@ int main(int argc, char *argv[])
     for (cpp = argv+1; *cpp; ++cpp) {
 	if ( **cpp == '-' ) {
 	    c = *(*cpp+1);
-	    ++cpp;
+	    //++cpp;
 	    switch (c) {
 	      case 'h':
 		  printf("Options:\n");
